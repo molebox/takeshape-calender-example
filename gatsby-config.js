@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
     plugins: [
         {
@@ -18,5 +20,6 @@ module.exports = {
               fetchOptions: {}
             }
           },
+          'gatsby-plugin-theme-ui',
     ]
 }
